@@ -1,8 +1,0 @@
-#N canvas 718 262 638 577 12;
-#X text 23 36 @writing list to send values to DMX;
-#X obj 394 37 loadbang;
-#X msg 437 120 \; pd dsp 1 \;;
-#X msg 396 67 \; 1-rnd-reset bang \; 2-rnd-reset bang \;;
-#X obj 90 242 prepend-list;
-#X connect 1 0 3 0;
-#X connect 1 0 2 0;
