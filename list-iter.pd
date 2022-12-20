@@ -6,7 +6,7 @@
 #X obj 110 221 route bang;
 #X obj 111 257 t b;
 #X obj 69 48 inlet;
-#X obj 63 327 outlet;
+#X obj 43 263 outlet;
 #X connect 0 0 1 0;
 #X connect 0 1 2 1;
 #X connect 1 0 2 0;
