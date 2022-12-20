@@ -1,0 +1,13 @@
+#N canvas 169 501 450 300 12;
+#X obj 129 124 r+ toto;
+#X text 19 11 r+;
+#X text 19 38 send receive with interpolation for float;
+#X floatatom 63 124 5 0 0 0 - - - 0;
+#X floatatom 138 177 5 0 0 0 - - - 0;
+#X text 178 179 outlet for control;
+#X msg 248 102 \; toto 0;
+#X msg 316 101 \; toto 1 10000;
+#X msg 340 146 \; toto 3;
+#X connect 0 0 3 0;
+#X connect 0 1 4 0;
+#X connect 3 0 0 0;
