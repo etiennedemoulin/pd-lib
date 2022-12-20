@@ -44,8 +44,8 @@
 #X obj 11 157 switch~;
 #X text 526 375 rnd-enable;
 #X text 609 376 rnd-reset;
-#X text 499 408 rnd-min-time;
-#X text 499 453 rnd-max-time;
+#X text 503 407 rnd-min-time;
+#X text 504 453 rnd-max-time;
 #X text 603 450 rnd-max-value;
 #X text 605 407 rnd-min-value;
 #X connect 0 0 3 0;

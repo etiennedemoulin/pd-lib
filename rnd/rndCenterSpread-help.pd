@@ -1,4 +1,4 @@
-#N canvas 391 189 695 595 12;
+#N canvas 257 179 695 595 12;
 #X obj 525 63 loadbang;
 #X msg 568 146 \; pd dsp 1 \;;
 #X floatatom 285 275 5 0 0 0 - - - 0;
