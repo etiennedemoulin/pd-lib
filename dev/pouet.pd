@@ -1,2 +1,5 @@
-#N canvas 786 507 450 300 12;
-#X obj 89 43 bpatcher 1;
+#N canvas 786 507 637 324 12;
+#X obj 86 23 bpatcher 1;
+#X obj 323 154 coll 1-myAbs;
+#C restore;
+#X obj 417 39 bpatcher 2;

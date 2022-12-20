@@ -2,22 +2,26 @@
 #X obj 525 63 loadbang;
 #X msg 568 146 \; pd dsp 1 \;;
 #X floatatom 285 275 5 0 0 0 - - - 0;
-#X floatatom 29 359 5 0 0 0 - - - 0;
-#X obj 29 325 r 1-rnd-value;
+#X floatatom 17 383 5 0 0 0 - - - 0;
+#X obj 16 304 r 1-rnd-value;
 #X msg 44 417 \; 1-rnd-enable 1;
 #X msg 45 464 \; 1-rnd-center-value 10 10000 \; 1-rnd-center-time 500
 10000 \; 1-rnd-spread-time 0.7 10000 \; 1-rnd-spread-value 0.7 10000
 \;;
 #X obj 273 40 myRandomProc 2;
 #X msg 527 93 \; 1-rnd-reset bang \; 2-rnd-reset bang \;;
-#X floatatom 57 275 5 0 0 0 - - - 0;
-#X obj 45 40 myRandomProc 1;
+#X floatatom 58 271 5 0 0 0 - - - 0;
+#X obj 44 41 myRandomProc 1;
 #X floatatom 272 357 5 0 0 0 - - - 0;
 #X obj 272 323 r 2-rnd-value;
 #X msg 300 466 \; 2-rnd-center-value 100 1000 \;, f 30;
+#X obj 17 332 round 1 @nearest 0;
+#X obj 17 357 + 1;
 #X connect 0 0 8 0;
 #X connect 0 0 1 0;
-#X connect 4 0 3 0;
+#X connect 4 0 14 0;
 #X connect 7 0 2 0;
 #X connect 10 0 9 0;
 #X connect 12 0 11 0;
+#X connect 14 0 15 0;
+#X connect 15 0 3 0;
