@@ -3,3 +3,4 @@
 #X obj 323 154 coll 1-myAbs;
 #C restore;
 #X obj 417 39 bpatcher 2;
+#X msg 152 244 \; 1-toto 273 \;;

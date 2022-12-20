@@ -1,0 +1,22 @@
+#N canvas 391 173 900 611 12;
+#X obj 525 63 loadbang;
+#X msg 568 146 \; pd dsp 1 \;;
+#X floatatom 285 275 5 0 0 0 - - - 0;
+#X floatatom 16 337 5 0 0 0 - - - 0;
+#X floatatom 58 271 5 0 0 0 - - - 0;
+#X floatatom 272 357 5 0 0 0 - - - 0;
+#X obj 44 31 rndMinMax 1;
+#X obj 271 32 rndMinMax 2;
+#X obj 16 304 r 1-rnd-value;
+#X obj 272 323 r 2-rnd-value;
+#X msg 527 93 \; 1-rnd-reset bang \; 2-rnd-reset bang \;;
+#X msg 300 466 \; 2-rnd-max-value 100 1000 \;;
+#X msg 45 464 \; 1-rnd-min-value 10 10000 \; 1-rnd-max-value 100 10000
+\; 1-rnd-min-time 20 10000 \; 1-rnd-max-time 100 10000 \;;
+#X msg 44 417 \; 1-rnd-enable 1;
+#X connect 0 0 10 0;
+#X connect 0 0 1 0;
+#X connect 6 0 4 0;
+#X connect 7 0 2 0;
+#X connect 8 0 3 0;
+#X connect 9 0 5 0;

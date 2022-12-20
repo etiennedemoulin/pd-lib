@@ -12,7 +12,7 @@ Usage : `r+ <receive-name> <interpolation time>`
 fbk is a send-receive object for UI creation  
 Usage : `fbk <send-receive-name>`  
 
-## myRandomProc
+## rnd
 generate random number with center and spread control  
 See myRandomProc-help  
 
