@@ -2,10 +2,12 @@
 #X obj 31 27 inlet;
 #X obj 31 58 s \$1;
 #X obj 31 97 r \$1;
-#X msg 31 126 set \$1;
-#X obj 30 155 outlet;
-#X obj 98 158 outlet;
+#X obj 30 211 outlet;
+#X obj 98 214 outlet;
+#X obj 28 141 list prepend set;
+#X obj 27 168 list trim;
 #X connect 0 0 1 0;
-#X connect 2 0 3 0;
+#X connect 2 0 4 0;
 #X connect 2 0 5 0;
-#X connect 3 0 4 0;
+#X connect 5 0 6 0;
+#X connect 6 0 3 0;
