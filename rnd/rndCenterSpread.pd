@@ -14,14 +14,14 @@
 #000000;
 #X obj 68 365 * 0;
 #X obj 68 405 + 0;
-#X obj 340 377 - 0;
-#X obj 339 344 t b f;
-#X obj 295 311 t f f;
+#X obj 306 413 - 0;
+#X obj 305 380 t b f;
+#X obj 363 339 t f f;
 #X obj 47 229 noise~;
 #X obj 59 271 snapshot~;
 #X obj 64 300 * 0.5;
 #X obj 63 329 + 0.5;
-#X obj 277 353 * 2;
+#X obj 243 389 * 2;
 #X obj 250 39 t f f;
 #X obj 406 62 *;
 #X obj 405 38 t b f;
